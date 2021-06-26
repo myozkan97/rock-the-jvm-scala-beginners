@@ -1,6 +1,6 @@
 package lectures.part1basics
 
-object Expressions extends App {
+object _2_Expressions extends App {
 
   val x = 1 + 2 // expression
   println(x)
@@ -33,7 +33,7 @@ object Expressions extends App {
     i += 1
 
   }
-  print(aWhile) // returns Unit
+  println(aWhile) // returns Unit
 
   // NEVER WRITE THIS AGAIN, AVOID LOOPS AT ALL COST!!!
 

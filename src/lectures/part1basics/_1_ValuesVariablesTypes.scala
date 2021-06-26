@@ -1,6 +1,6 @@
 package lectures.part1basics
 
-object ValuesVariablesTypes extends App {
+object _1_ValuesVariablesTypes extends App {
 
   val x: Int = 42
   println(x)

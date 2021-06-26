@@ -2,7 +2,7 @@ package lectures.part1basics
 
 import scala.annotation.tailrec
 
-object Recursion extends App {
+object _4_Recursion extends App {
 
   def factorial(n: Int): Int =
     if (n <= 1) 1
