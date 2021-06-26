@@ -90,7 +90,7 @@ object Functions extends App {
 
 
 
-
+// compiler cannot infer type of a recursive function
 
 
 
