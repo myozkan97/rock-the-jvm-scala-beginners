@@ -7,7 +7,7 @@ object _2_MethodNotations extends App {
   class Person(val name: String, favoriteMovie: String) {
     def likes(movie: String): Boolean  = movie == favoriteMovie
 
-    def hangOutWith(person: Person): String = s"${this.name} is hanging out with ${person.name}"
+    def hangsOutWith(person: Person): String = s"${this.name} is hanging out with ${person.name}"
 
     // put space between ! and :
     def unary_! : String = s"$name what the flying fuck"
@@ -16,6 +16,7 @@ object _2_MethodNotations extends App {
 
     // paranthesis are important
     def apply(): String = s"Hi, my name is $name and I like $favoriteMovie"
+
   }
 
   val mary = new Person("Mary", "Green Book")
@@ -25,7 +26,7 @@ object _2_MethodNotations extends App {
   println( mary likes "Green Book")
 
   // "operators" in Scala
-  println(mary hangOutWith (new Person("Tom", "Titanic")))
+  println(mary hangsOutWith (new Person("Tom", "Titanic")))
   // here hangout is an operator
   // you can actually overload "+", sick...
 
@@ -49,6 +50,9 @@ object _2_MethodNotations extends App {
   // Apply
   println(mary.apply())
   println(mary()) // these two are the same
+
+
+
 
 
 }
