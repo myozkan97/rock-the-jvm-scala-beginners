@@ -29,5 +29,6 @@ object _5_CBNvsCBV extends App {
 //  printFirst(infinite(), 34) // this will crash
   printFirst(34, infinite())
   // line above won't crash, since it's called by name and not used. So it won't be evaluated
+
 }
 
