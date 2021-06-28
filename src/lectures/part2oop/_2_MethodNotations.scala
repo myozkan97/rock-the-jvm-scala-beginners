@@ -10,7 +10,7 @@ object _2_MethodNotations extends App {
     def hangsOutWith(person: Person): String = s"${this.name} is hanging out with ${person.name}"
 
     // put space between ! and :
-    def unary_! : String = s"$name what the flying fuck"
+    def unary_! : String = s"$name: what the flying fuck"
 
     def isAlive: Boolean = true
 

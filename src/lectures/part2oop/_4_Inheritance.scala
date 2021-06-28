@@ -1,6 +1,6 @@
 package lectures.part2oop
 
-object _4_InheritanceAndTraits extends App {
+object _4_Inheritance extends App {
 
   // Single class inheritance like Java
   class Animal {
@@ -67,7 +67,7 @@ object _4_InheritanceAndTraits extends App {
 
   // Prevent Overrides
   // 1 - Use final on method or field
-  // 2 - Final on the class (prevents extending)
+  // 2 - Final on the cluyass (prevents extending)
   // 3 - Seal the class ( you can extend classes in THIS FILE but not in other files )
   class Dog4()  {
     final def eat = {
