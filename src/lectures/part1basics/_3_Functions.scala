@@ -16,7 +16,7 @@ object _3_Functions extends App {
 
   def aRepeatedFunction(aString: String, n: Int): String = {
     if (n == 1) aString
-    else aString + aRepeatedFunction(aString, n - 1)
+    else aString + " " + aRepeatedFunction(aString, n - 1)
   }
 
   println(aRepeatedFunction("hello", 3))

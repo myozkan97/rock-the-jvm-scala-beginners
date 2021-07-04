@@ -24,7 +24,7 @@ object _2_Expressions extends App {
   // IF expression
   val aCondition = true
   val aConditionedValue = if(aCondition) 5 else 3
-  println(aConditionedValue)
+  println("aConditionedValue", aConditionedValue)
   println(if(aCondition) 5 else 3)
 
   var i = 0
