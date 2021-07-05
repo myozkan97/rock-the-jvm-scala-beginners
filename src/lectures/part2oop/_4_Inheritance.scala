@@ -67,7 +67,7 @@ object _4_Inheritance extends App {
 
   // Prevent Overrides
   // 1 - Use final on method or field
-  // 2 - Final on the cluyass (prevents extending)
+  // 2 - Final on the class (prevents extending)
   // 3 - Seal the class ( you can extend classes in THIS FILE but not in other files )
   class Dog4()  {
     final def eat = {
